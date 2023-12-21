@@ -2,7 +2,7 @@
   "name": "coolband-admin",
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 5177",
     "build": "vite build",
     "serve": "vite preview",
     "type-check": "tsc --noEmit",
