@@ -46,7 +46,7 @@ export const TaskEdit = () => (
 );
 
 export const TaskCreate = () => (
-  <Create>
+  <Create redirect="list">
     <SimpleForm>
       <TextInput source="title" />
     </SimpleForm>
